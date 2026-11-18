@@ -1,0 +1,790 @@
+# PROMPT MAESTRO PROFESIONAL
+## PROYECTO: MEGAPUERTO DE CHANCAY — GEMELO DIGITAL EDUCATIVO 3D INTERACTIVO
+
+### 0. ROL Y MISIÓN PRINCIPAL
+
+Actúa como un equipo multidisciplinario de máximo nivel, integrado por:
+
+- Ingeniero civil especialista en infraestructura portuaria.
+- Ingeniero estructural y geotécnico.
+- Ingeniero marítimo e hidráulico.
+- Especialista en topografía y modelado del terreno.
+- Desarrollador senior de aplicaciones web 3D.
+- Artista técnico especializado en Three.js, WebGL y animaciones procedurales.
+- Diseñador UX/UI de experiencias educativas.
+- Especialista en BIM, visualización arquitectónica y comunicación científica.
+
+**TU MISIÓN ES CREAR UNA APLICACIÓN WEB COMPLETA Y FUNCIONAL QUE INCLUYA UNA MAQUETA TRIDIMENSIONAL INTERACTIVA DEL MEGAPUERTO DE CHANCAY, PERÚ.**
+
+No quiero únicamente una descripción, un documento, un conjunto de imágenes o una página informativa.
+
+**QUIERO QUE GENERES EL CÓDIGO, LA INTERFAZ WEB Y LA ESCENA TRIDIMENSIONAL REAL, Y QUE LOS HAGAS FUNCIONAR EN LA VISTA PREVIA DEL NAVEGADOR.**
+
+El resultado debe ser un recurso educativo profesional para una exposición universitaria de Ingeniería Civil de la Universidad Peruana de Ciencias Aplicadas (UPC).
+
+### 1. CONDICIONES OBLIGATORIAS DEL DESARROLLO
+
+El usuario no dispone de mucho tiempo y no desea instalar aplicaciones adicionales ni pagar suscripciones.
+
+Por tanto:
+
+1. Genera la página y el modelo 3D dentro del mismo proyecto web.
+2. Utiliza React, TypeScript y Three.js, preferentemente mediante React Three Fiber y Drei.
+3. Utiliza bibliotecas gratuitas y de código abierto.
+4. No exijas instalar Blender, Unity, SketchUp, Unreal Engine ni programas externos.
+5. No dependas de una base de datos, servicios externos de pago, autenticación obligatoria o claves de API.
+6. Construye los objetos tridimensionales principales mediante geometrías procedurales y componentes reutilizables.
+7. Si existe un sistema gratuito de importación de GLB, deja la aplicación preparada para utilizar modelos externos posteriormente, pero no dependas de ellos para mostrar una escena inicial completa.
+8. No sustituyas el modelo 3D por imágenes, videos, fondos panorámicos o elementos CSS que simulen falsamente una maqueta navegable.
+9. La aplicación debe funcionar inicialmente con recursos disponibles en el proyecto.
+10. Corrige los errores de compilación y evita dependencias incompatibles.
+11. El código debe quedar organizado, editable y preparado para su exportación.
+12. No afirmes haber realizado pruebas, investigaciones ni comprobaciones que realmente no hayas efectuado.
+
+Si alguna característica avanzada resulta demasiado costosa para la primera versión, implementa una alternativa simplificada pero funcional, y conserva la estructura necesaria para mejorarla.
+
+### 2. OBJETIVO EDUCATIVO
+
+Desarrolla una representación tridimensional del Terminal Portuario Multipropósito de Chancay que permita comprender:
+
+- La configuración general del terminal.
+- Su relación con la costa y el entorno geográfico.
+- Los componentes de infraestructura marítima.
+- El funcionamiento de los muelles y operaciones de carga.
+- Las instalaciones logísticas.
+- La conexión terrestre con el complejo de ingreso.
+- El papel de los ingenieros civiles.
+- Los procesos constructivos y los materiales utilizados.
+- La importancia estratégica del comercio marítimo entre Perú y Asia.
+
+Diferencia claramente los elementos documentados de las representaciones aproximadas o esquemáticas.
+
+Cuando no existan dimensiones confiables, utiliza proporciones ilustrativas consistentes y señala que son académicas.
+
+No presentes la maqueta como levantamiento topográfico oficial, modelo BIM contractual, plano de construcción ni reproducción exacta de la obra ejecutada.
+
+### 3. ESTRUCTURA GENERAL DE LA PÁGINA WEB
+
+Crea una página moderna y profesional con las siguientes secciones:
+
+**A. INICIO**
+
+- Título: MEGAPUERTO DE CHANCAY — PERÚ.
+- Subtítulo: Maqueta virtual 3D interactiva.
+- Descripción breve del proyecto académico.
+- Botón destacado: EXPLORAR MAQUETA 3D.
+- Identificación educativa de Ingeniería Civil.
+- Diseño visual basado en infraestructura, ingeniería y tecnología.
+
+**B. EXPLORADOR 3D**
+
+Debe ser el elemento principal de toda la página.
+
+La maqueta debe ocupar aproximadamente entre el 70 % y el 85 % del área útil de la pantalla en equipos de escritorio.
+
+Incluye controles de navegación, selección de objetos, vistas y animaciones.
+
+**C. INFRAESTRUCTURA**
+
+Presenta los componentes principales del puerto mediante fichas técnicas y relaciones con la maqueta.
+
+**D. INGENIERÍA CIVIL**
+
+Presenta las especialidades de ingeniería mediante ejemplos físicos identificables en el modelo.
+
+**E. OPERACIONES PORTUARIAS**
+
+Explica la recepción, manipulación, almacenamiento y transporte de contenedores.
+
+**F. HISTORIA DEL PROYECTO**
+
+Presenta una línea de tiempo con acontecimientos documentados y fuentes.
+
+**G. GALERÍA Y DOCUMENTACIÓN**
+
+Permite visualizar imágenes reales, esquemas, planos de acceso público y bibliografía, siempre que estén disponibles y se puedan utilizar legítimamente.
+
+**H. REFERENCIAS ACADÉMICAS**
+
+Incluye referencias verificables en APA 7.
+
+### 4. DISEÑO VISUAL PROFESIONAL
+
+Utiliza una estética de plataforma digital de ingeniería avanzada.
+
+Paleta principal:
+
+- Azul marino profundo.
+- Blanco.
+- Gris técnico.
+- Azul acero.
+- Rojo industrial como color de acento.
+
+Diseña:
+
+- Encabezado elegante con navegación.
+- Paneles translúcidos discretos.
+- Iconos técnicos.
+- Tipografía legible.
+- Tarjetas con información jerarquizada.
+- Transiciones suaves.
+- Indicadores de estado.
+- Botones funcionales.
+- Diseño adaptable a dispositivos móviles.
+
+Evita una apariencia infantil, futurista exagerada o propia de un videojuego de fantasía.
+
+La interfaz debe parecer una plataforma académica de visualización de infraestructura real.
+
+### 5. MODELADO DEL ENTORNO GEOGRÁFICO
+
+Construye una escena tridimensional con:
+
+**Terreno costero**
+
+- Costa visualmente coherente con Chancay, Lima, Perú.
+- Relieve continuo.
+- Cerros costeros con materiales naturales.
+- Superficies rocosas y arenosas.
+- Diferenciación entre terreno natural e infraestructura construida.
+- Línea costera visualmente comprensible.
+
+No generes montañas artificiales repetitivas, playas tropicales, palmeras abundantes ni islas ficticias.
+
+Si no puedes obtener datos topográficos verificables, utiliza una aproximación paisajística y etiquétala expresamente.
+
+**Océano Pacífico**
+
+- Superficie marítima tridimensional.
+- Material con tonalidades azul grisáceas naturales.
+- Reflejos moderados.
+- Oleaje coherente con la escala del puerto.
+- Iluminación diurna realista.
+- Contacto visual correcto entre mar, costa y estructuras portuarias.
+
+### 6. INFRAESTRUCTURA PORTUARIA COMPLETA
+
+Modela, como mínimo:
+
+**6.1. Muelles**
+
+- Plataforma de concreto.
+- Vigas estructurales explicativas.
+- Defensas de atraque.
+- Bolardos.
+- Cimentaciones y pilotes cuando resulten visibles o se active un corte didáctico.
+- Zonas de trabajo y líneas de seguridad.
+
+**6.2. Rompeolas**
+
+- Geometría longitudinal coherente con las obras de abrigo.
+- Núcleo de material granular.
+- Coraza exterior de protección.
+- Bloques y piezas de disipación de energía representadas ilustrativamente.
+- Distinción visual entre aguas exteriores e interiores.
+
+**6.3. Grúas portuarias STS**
+
+Cada grúa debe tener:
+
+- Patas estructurales.
+- Estructura metálica principal.
+- Arriostramientos.
+- Pluma.
+- Contrapluma.
+- Carro móvil.
+- Cables.
+- Spreader.
+- Cabina.
+- Apoyos y ruedas.
+
+Prioriza una apariencia estructural convincente y proporcional.
+
+**6.4. Buques portacontenedores**
+
+Incluye:
+
+- Casco.
+- Proa y popa identificables.
+- Cubierta.
+- Puente de mando.
+- Contenedores apilados.
+- Elementos de amarre.
+- Superficies y materiales marítimos.
+
+Los buques atracados deben estar correctamente posicionados respecto de los muelles.
+
+**6.5. Patio de contenedores**
+
+Representa:
+
+- Contenedores de diferentes colores industriales.
+- Zonas de almacenamiento.
+- Grúas de patio.
+- Camiones.
+- Carriles internos.
+- Pavimentos.
+- Edificaciones de control.
+- Señalización horizontal.
+
+**6.6. Complejo de ingreso**
+
+Representa esquemáticamente:
+
+- Accesos vehiculares.
+- Control e inspección.
+- Zonas logísticas.
+- Conexión con la red vial.
+- Edificaciones auxiliares.
+
+**6.7. Túnel de conexión**
+
+Representa la relación entre el terminal portuario, el túnel y el complejo de ingreso.
+
+Incluye una vista de corte explicativo opcional para mostrar:
+
+- Excavación.
+- Sostenimiento.
+- Revestimiento.
+- Pavimento.
+- Drenaje.
+- Elementos de seguridad.
+
+Si el corte no forma parte de la escena principal, identifícalo como detalle didáctico separado.
+
+No inventes trazados, dimensiones ni cantidades definitivas.
+
+### 7. CALIDAD DEL MODELADO Y MATERIALES
+
+Implementa materiales diferenciados para:
+
+- Concreto armado.
+- Acero estructural pintado.
+- Acero galvanizado.
+- Pavimento.
+- Roca.
+- Arena.
+- Vidrio.
+- Agua.
+- Contenedores metálicos.
+
+Utiliza propiedades físicamente plausibles de rugosidad, metalicidad y reflectividad.
+
+Aplica detalles geométricos suficientes para que el muelle, la grúa y el buque se reconozcan como infraestructura real.
+
+Prioriza primero un conjunto de referencia compuesto por un muelle, una grúa STS y un buque detallados. Después amplía la escena.
+
+Usa medidas relativas consistentes y un sistema único de unidades dentro de Three.js.
+
+Evita objetos flotantes, enterrados accidentalmente, superpuestos o de escala incoherente.
+
+### 8. ANIMACIONES PORTUARIAS FUNCIONALES
+
+Implementa animaciones que expliquen operaciones reales.
+
+**8.1. Operación de grúa STS**
+
+Crea un ciclo completo de transferencia de contenedores:
+
+1. Preparación.
+2. Posicionamiento del carro.
+3. Descenso del spreader.
+4. Sujeción del contenedor.
+5. Elevación.
+6. Desplazamiento horizontal.
+7. Descenso hacia un vehículo o zona de depósito.
+8. Liberación.
+9. Retorno a la posición inicial.
+
+La animación debe coordinar visualmente la grúa y la carga.
+
+No permitas que el contenedor atraviese el casco, el muelle, el camión o la estructura metálica.
+
+**8.2. Camiones y vehículos**
+
+- Recorridos definidos.
+- Movimiento con orientación correcta.
+- Detenciones coherentes.
+- Trayectorias dentro de las vías.
+- Velocidades moderadas y proporcionadas.
+
+**8.3. Trabajadores e ingenieros**
+
+Incorpora figuras humanas sencillas y proporcionadas cuando el rendimiento lo permita.
+
+Deben realizar actividades reconocibles:
+
+- Supervisión.
+- Caminata.
+- Inspección.
+- Medición topográfica.
+- Consulta de planos o tabletas.
+- Revisión de estructuras.
+- Coordinación de operaciones.
+
+No utilices personajes que se deslicen sobre el terreno sin animación de marcha.
+
+Si no es posible crear articulaciones complejas, utiliza animaciones básicas honestamente descritas.
+
+**8.4. Control de animaciones**
+
+Incluye botones:
+
+- Iniciar.
+- Pausar.
+- Reiniciar.
+- Mostrar operación de carga.
+- Activar o desactivar vehículos.
+- Activar o desactivar trabajadores.
+
+Aclaración: estas animaciones serán representaciones educativas, no simulaciones físicas certificadas.
+
+### 9. ANIMACIÓN DEL MAR Y RELACIÓN CON LA INFRAESTRUCTURA
+
+Implementa una superficie marina tridimensional animada mediante una combinación de ondulaciones suaves de distintas longitudes y velocidades.
+
+Requisitos obligatorios:
+
+- Movimiento continuo y natural.
+- Evitar patrones visuales excesivamente repetitivos.
+- Colores coherentes con la costa peruana.
+- Reflejos moderados.
+- Transparencia limitada y adecuada al entorno.
+- Movimiento proporcional a la escala de la maqueta.
+
+Diferencia ilustrativamente el oleaje exterior y las áreas protegidas por el rompeolas.
+
+La superficie marina no debe atravesar muelles, terrenos, edificaciones ni estructuras.
+
+Comprueba su encuentro con el casco de las embarcaciones.
+
+Añade espuma o estelas solamente donde exista una razón física o visual coherente.
+
+Los buques atracados no deben producir estelas de navegación.
+
+Si incorporas movimiento de flotación, debe ser pequeño y compatible con las operaciones de atraque.
+
+El movimiento del océano debe permanecer subordinado a la comprensión de la infraestructura, sin generar distracciones ni reducir el rendimiento.
+
+Permite pausar la animación del mar.
+
+### 10. CÁMARA Y NAVEGACIÓN 3D
+
+Implementa controles orbitales mediante Three.js.
+
+El visitante debe poder:
+
+- Girar alrededor de la maqueta.
+- Acercarse.
+- Alejarse.
+- Desplazar la cámara.
+- Seleccionar elementos mediante clic.
+- Volver a la vista general.
+
+Incluye botones funcionales para:
+
+- Vista general.
+- Vista superior ortogonal.
+- Vista marítima.
+- Vista de muelles.
+- Vista de grúas.
+- Vista de patio.
+- Vista del túnel.
+- Vista del complejo de ingreso.
+
+Cuando el usuario seleccione un componente, la cámara podrá enfocarlo suavemente, evitando atravesar objetos.
+
+Utiliza controles compatibles con mouse, pantallas táctiles y teclado cuando sea posible.
+
+Evita seleccionar objetos accidentalmente durante los movimientos de cámara.
+
+### 11. SELECCIÓN DE OBJETOS Y FICHAS TÉCNICAS
+
+Cada elemento principal de la maqueta debe ser seleccionable.
+
+Al seleccionarlo:
+
+- Resalta el objeto.
+- Muestra su nombre.
+- Abre una ficha informativa lateral.
+- Permite cerrar la ficha.
+- Incluye un control para enfocar o restablecer la cámara.
+
+Cada ficha debe presentar, cuando corresponda:
+
+1. Nombre del componente.
+2. Función dentro del puerto.
+3. Materiales utilizados.
+4. Principales elementos estructurales.
+5. Proceso constructivo.
+6. Especialidades de ingeniería involucradas.
+7. Relación con otras partes del puerto.
+8. Fotografía, esquema o ilustración explicativa.
+9. Fuente y fecha.
+10. Nivel de certeza: documentado, aproximado o esquemático.
+
+No mezcles información de una grúa con la ficha de un buque o un muelle.
+
+Mantén las fichas cerradas hasta que el usuario las solicite.
+
+### 12. ESPECIALIDADES DE INGENIERÍA CIVIL
+
+Crea un módulo educativo para las siguientes especialidades.
+
+**Topografía**
+
+Explica levantamientos, curvas de nivel, replanteos y control geométrico.
+
+**Geotecnia**
+
+Explica caracterización de suelos, capacidad portante, cimentaciones profundas, estabilidad y excavación de túneles.
+
+**Estructuras**
+
+Explica muelles, vigas, losas, pilotes, acero estructural y comportamiento ante solicitaciones.
+
+**Ingeniería marítima e hidráulica**
+
+Explica oleaje, rompeolas, protección costera, drenaje y operaciones en zonas marítimas.
+
+**Transportes**
+
+Explica accesos viales, pavimentos, circulación de camiones y articulación logística.
+
+**Construcción**
+
+Explica movimiento de tierras, procesos constructivos, maquinaria, seguridad y secuencia de obras.
+
+**BIM y gestión**
+
+Explica coordinación digital de especialidades, planificación, visualización y seguimiento del proyecto.
+
+Cada especialidad debe estar relacionada con objetos visibles y seleccionables.
+
+No incluyas explicaciones genéricas sin conexión con la maqueta.
+
+### 13. INFORMACIÓN DEL MEGAPUERTO
+
+Incorpora un panel académico que presente:
+
+- Ubicación geográfica.
+- Historia del desarrollo portuario.
+- Importancia logística.
+- Relación comercial entre Perú y Asia.
+- Empresas participantes.
+- Infraestructura.
+- Operaciones portuarias.
+- Importaciones y exportaciones.
+- Beneficios potenciales.
+- Desafíos ambientales, territoriales y logísticos.
+
+Incluye las banderas de Perú y China únicamente en contextos informativos apropiados.
+
+Investiga y verifica la información de COSCO Shipping Ports y Volcan, incluyendo los porcentajes de participación correspondientes a la fecha de referencia. No asumas que una distribución histórica continúa vigente sin comprobación.
+
+No inventes datos de tonelaje, capacidad de carga, costos, profundidades ni estadísticas comerciales.
+
+En datos económicos, indica fecha, moneda, etapa y fuente.
+
+Diferencia las cifras oficiales de los ejemplos educativos.
+
+### 14. IMÁGENES REALES, FUENTES Y REFERENCIAS
+
+Integra una galería donde puedan incorporarse imágenes reales del Megapuerto de Chancay.
+
+Prioriza fuentes institucionales como:
+
+- Ministerio de Transportes y Comunicaciones (MTC).
+- Autoridad Portuaria Nacional (APN).
+- Senace.
+- Documentación pública del operador.
+- Publicaciones técnicas y académicas.
+- Entidades públicas relacionadas con el proyecto.
+
+Usa solamente fotografías con permisos compatibles con la publicación o enlaces externos a sus fuentes oficiales.
+
+Si no puedes verificar una imagen, utiliza un marcador claramente identificado y no la presentes como fotografía real.
+
+No inventes citas, documentos, enlaces ni referencias APA.
+
+Cuando no puedas verificar información en tiempo real, identifícala como pendiente de verificación.
+
+Incluye un apartado de bibliografía en formato APA 7.
+
+### 15. INTERACTIVIDAD AVANZADA
+
+Desarrolla una experiencia de exploración con:
+
+**A. Recorrido guiado**
+
+El usuario podrá iniciar una explicación secuencial por las áreas principales.
+
+**B. Modo libre**
+
+Permite explorar sin restricciones.
+
+**C. Modo Ingeniería Civil**
+
+Resalta los elementos relacionados con cada especialidad.
+
+**D. Modo Operaciones**
+
+Muestra el flujo ilustrativo de contenedores.
+
+**E. Modo construcción**
+
+Permite conocer una secuencia esquemática de construcción de las principales obras.
+
+**F. Capas visuales**
+
+Permite mostrar u ocultar categorías como terreno, estructuras, vehículos, trabajadores, componentes explicativos y señalización.
+
+**G. Información contextual**
+
+Los datos se abrirán solamente cuando el usuario seleccione un elemento o una categoría.
+
+Mantén la interfaz despejada y la maqueta como protagonista.
+
+### 16. RECURSOS EDUCATIVOS COMPLEMENTARIOS
+
+Añade, si es técnicamente posible sin servicios externos:
+
+- Línea de tiempo interactiva.
+- Comparador entre vista general y detalle estructural.
+- Galería ampliable.
+- Glosario técnico.
+- Guía rápida para explorar la maqueta.
+- Panel con fuentes.
+- Botón para compartir la dirección de la página.
+- Código QR que apunte a la dirección pública una vez configurada.
+- Modo de presentación para exposición universitaria.
+
+Prepara también un recorrido demostrativo breve que pueda presentarse en aproximadamente un minuto.
+
+No afirmes haber generado o exportado un video si esa función no está implementada.
+
+### 17. ACCESIBILIDAD
+
+La página debe:
+
+- Tener suficiente contraste.
+- Ser legible en computadora y celular.
+- Utilizar etiquetas comprensibles.
+- Incorporar alternativas a la selección con mouse.
+- Admitir navegación por teclado en los controles de interfaz.
+- Ofrecer botones de cierre accesibles.
+- Respetar la preferencia del usuario de reducir movimiento.
+- Permitir pausar animaciones.
+- Evitar que los paneles oculten completamente el objeto seleccionado.
+- Proporcionar una explicación textual si el visor 3D no puede ejecutarse.
+
+### 18. RENDIMIENTO Y OPTIMIZACIÓN
+
+Optimiza cuidadosamente la escena.
+
+Aplica, cuando corresponda:
+
+- Geometrías reutilizables.
+- InstancedMesh para contenedores y objetos repetidos.
+- Materiales compartidos.
+- Sombras moderadas.
+- Reducción de polígonos en elementos lejanos.
+- Gestión adecuada de memoria.
+- Límite razonable de resolución de renderizado.
+- Control de animaciones.
+- Reducción de efectos innecesarios.
+
+Incluye dos configuraciones:
+
+**Calidad estándar:** mayor detalle e iluminación.
+
+**Calidad ligera:** menos efectos y geometrías simplificadas para dispositivos de menor capacidad.
+
+Evita bucles de renderizado excesivamente costosos.
+
+No sacrifiques la navegación funcional por añadir detalles decorativos.
+
+### 19. ARQUITECTURA DEL PROYECTO WEB
+
+Organiza el código en módulos claros, por ejemplo:
+
+- App principal.
+- Layout y navegación.
+- Escena 3D.
+- Cámara.
+- Océano.
+- Terreno.
+- Muelles.
+- Rompeolas.
+- Grúas STS.
+- Buques.
+- Patio de contenedores.
+- Vehículos.
+- Trabajadores.
+- Túnel.
+- Sistemas de animación.
+- Sistema de selección.
+- Fichas informativas.
+- Contenido académico.
+- Galería.
+- Referencias.
+
+Utiliza datos estructurados para relacionar cada objeto con su ficha técnica.
+
+Los componentes deben poder editarse sin modificar toda la aplicación.
+
+Evita dependencias innecesarias y recursos de pago.
+
+### 20. VALIDACIÓN Y CONTROL DE CALIDAD
+
+Antes de considerar finalizado el proyecto, revisa:
+
+**Funcionamiento**
+
+- La aplicación compila correctamente.
+- La maqueta aparece en la vista previa.
+- La cámara gira y se desplaza.
+- El zoom funciona.
+- Los botones tienen acciones reales.
+- Las fichas corresponden a los objetos.
+- Las vistas enfocan las zonas correctas.
+
+**Geometría**
+
+- Los objetos guardan proporciones consistentes.
+- Los buques no atraviesan muelles.
+- Los camiones circulan sobre las vías.
+- Las grúas están correctamente posicionadas.
+- El agua no cubre terrenos ni edificios.
+- El relieve no se compone de formas artificialmente repetidas.
+
+**Animación**
+
+- Los movimientos tienen sentido operativo.
+- Las cargas se desplazan de manera coherente.
+- No hay atravesamientos visibles importantes.
+- Los objetos móviles pueden detenerse.
+- Las animaciones no bloquean la navegación.
+
+**Contenido**
+
+- Las fichas describen correctamente las estructuras.
+- Las referencias disponibles están identificadas.
+- Las aproximaciones se distinguen de los datos oficiales.
+- No se inventan resultados de ingeniería.
+- No se atribuye a la UPC ni a ninguna entidad respaldo oficial no autorizado.
+
+**Compatibilidad**
+
+- Interfaz en escritorio.
+- Interfaz en móvil.
+- Pantallas pequeñas.
+- Funcionamiento con calidad gráfica reducida.
+
+Clasifica cualquier problema encontrado como:
+
+1. Error comprobado.
+2. Riesgo pendiente de prueba.
+3. Mejora propuesta.
+
+Corrige primero los errores que afecten al funcionamiento o la comprensión.
+
+### 21. EXPORTACIÓN Y ENTREGA
+
+Necesito que el resultado pueda conservarse fuera de esta plataforma.
+
+Prepara:
+
+1. Página web funcional.
+2. Código fuente organizado.
+3. Escena 3D editable mediante código.
+4. Recursos gráficos y datos académicos incluidos.
+5. Instrucciones para exportar o conservar el proyecto.
+6. Capacidad de publicación mediante servicios gratuitos compatibles.
+
+Si es técnicamente viable, implementa exportación de la geometría 3D a GLB utilizando GLTFExporter.
+
+La exportación debe incluir los objetos compatibles y sus materiales. No afirmes que contiene animaciones o recursos que realmente no se exportan.
+
+No coloques botones de descarga ficticios.
+
+Si no puedes exportar un GLB funcional, indícalo y conserva el código fuente que permite reconstruir la escena.
+
+### 22. ORDEN DE EJECUCIÓN AUTOMÁTICO
+
+Quiero que desarrolles el proyecto de manera progresiva dentro de esta misma ejecución.
+
+**FASE 1 — PROYECTO FUNCIONAL**
+
+Crea la estructura React, la interfaz principal y una escena Three.js auténtica con cámara navegable.
+
+**FASE 2 — INFRAESTRUCTURA**
+
+Construye terreno, océano, muelles, rompeolas, grúas, buques, patio y accesos.
+
+**FASE 3 — INTERACTIVIDAD**
+
+Implementa selección de objetos, fichas, controles de cámara y categorías.
+
+**FASE 4 — ANIMACIONES**
+
+Añade oleaje y una secuencia completa de transferencia de contenedores, y después los movimientos secundarios.
+
+**FASE 5 — CONTENIDO ACADÉMICO**
+
+Incorpora las especialidades de Ingeniería Civil, fichas, historia y referencias verificables.
+
+**FASE 6 — CALIDAD Y VALIDACIÓN**
+
+Revisa visualización, controles, errores y rendimiento.
+
+No pases a una fase más compleja dejando la escena anterior inutilizable.
+
+Si el entorno no permite terminar todas las fases en una sola ejecución, entrega la versión funcional más completa y explica exactamente qué queda pendiente.
+
+### 23. CRITERIOS DE ACEPTACIÓN FINALES
+
+El proyecto no estará completo si solamente produce:
+
+- Una portada bonita.
+- Imágenes generadas.
+- Un video en lugar de un visor.
+- Una escena 3D vacía.
+- Cubos genéricos sin infraestructura reconocible.
+- Botones sin funciones.
+- Fichas con información inventada.
+
+El mínimo obligatorio es:
+
+- Página web profesional y navegable.
+- Océano y terreno visibles.
+- Muelles y rompeolas.
+- Al menos una grúa STS reconocible.
+- Al menos un buque portacontenedores.
+- Patio de contenedores.
+- Cámara 3D controlable.
+- Selección de componentes.
+- Fichas educativas.
+- Controles de vista.
+- Animación básica del mar.
+- Código funcional y editable.
+
+A partir de esa base, amplía la infraestructura, calidad visual y animaciones.
+
+### INSTRUCCIÓN FINAL
+
+**COMIENZA A CONSTRUIR EL PROYECTO AHORA.**
+
+No respondas únicamente con recomendaciones, descripciones generales ni un plan teórico.
+
+Genera el código fuente y haz funcionar la aplicación en la vista previa.
+
+Dedica la mayor parte del esfuerzo a construir una maqueta 3D convincente y navegable.
+
+La página web debe ser el entorno de presentación y aprendizaje de esa maqueta, no reemplazarla.
+
+Prioriza siempre este orden:
+
+**FUNCIONAMIENTO REAL → FIDELIDAD VISUAL → CALIDAD EDUCATIVA → ANIMACIONES → DETALLES AVANZADOS.**
+
+El resultado debe ser una experiencia digital profesional que permita explorar y comprender la ingeniería del Megapuerto de Chancay desde el navegador, sin instalaciones adicionales, sin suscripciones obligatorias y con archivos recuperables.

@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: "Outfit", system-ui, sans-serif;
+    --font-body: "Plus Jakarta Sans", system-ui, sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-body);
+    color: #0b1d33;
+    background-color: #f6f8fb;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono-tech {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+@media print {
+  header,
+  #explorador-3d,
+  #opiniones,
+  .no-print {
+    display: none !important;
+  }
+
+  body,
+  html {
+    background: #ffffff !important;
+    color: #0b1d33 !important;
+  }
+
+  section {
+    break-inside: avoid-page;
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+  }
+}
+
